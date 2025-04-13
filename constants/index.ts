@@ -27,13 +27,30 @@ import check from "@/assets/images/check.png";
 import getStarted from "@/assets/images/get-started.png";
 import message from "@/assets/images/message.png";
 import noResult from "@/assets/images/no-result.png";
-import onboarding1 from "@/assets/images/onboarding1.png";
-import onboarding2 from "@/assets/images/onboarding2.png";
+import onboarding1 from "@/assets/images/onboarding1.jpeg";
+import smallTruck from "@/assets/images/smallTruck.png"
+import onboarding2 from "@/assets/images/onboarding2.jpeg";
 import onboarding3 from "@/assets/images/onboarding3.png";
 import signUpCar from "@/assets/images/signup-car.png";
-
+import arrow from "@/assets/icons/arrow.png";
+import Line6 from "@/assets/images/Line6.png";
+import Line7 from "@/assets/images/Line7.png";
+import Line8 from "@/assets/images/Line8.png";
+import Group1 from "@/assets/images/Group1.png";
+import logo from "@/assets/images/logo.png";
+import imageInSearch from "@/assets/icons/imageInSearch.png";
+import offer1 from "@/assets/images/offer1.png";
+import offer2 from "@/assets/images/offer2.png";
+import offer3 from "@/assets/images/offer3.png";
+import longrentboxcar from "@/assets/images/longrentboxcar.png";
+import smallCar from "@/assets/icons/smallCar.png";
+import Vocher from "@/assets/images/Vocher.png";
+import JoinAsBg from "@/assets/images/JoinAsBg.jpeg";
+import placeholder from "@/assets/images/placeholder.png";
+import sidebar from "@/assets/images/sidebar.png";
 export const images = {
   onboarding1,
+  smallTruck,
   onboarding2,
   onboarding3,
   getStarted,
@@ -41,6 +58,19 @@ export const images = {
   check,
   noResult,
   message,
+  Line6,
+  Line7,
+  Line8,
+  Group1,
+  logo,
+  offer1,
+  offer2,
+  offer3,
+  longrentboxcar,
+  Vocher,
+  JoinAsBg,
+  placeholder,
+  sidebar,
 };
 
 export const icons = {
@@ -68,29 +98,37 @@ export const icons = {
   selectedMarker,
   star,
   target,
-  to,
+  arrow,
+  imageInSearch,
+  smallCar,
 };
 
 export const onboarding = [
   {
     id: 1,
-    title: "The perfect ride is just a tap away!",
+    title: "TitleTitleTitle",
     description:
-      "Your journey begins with Ryde. Find your ideal ride effortlessly.",
+        "DescriptionDescriptionDescriptionDesciption\n" +
+        "DescriptionDescriptionDescriptionDescription\n"+
+        "DescriptionDescriptionDescription",
     image: images.onboarding1,
   },
   {
     id: 2,
-    title: "Best car in your hands with Ryde",
+    title: "TitleTitleTitle",
     description:
-      "Discover the convenience of finding your perfect ride with Ryde",
+      "DescriptionDescriptionDescriptionDesciption\n" +
+      "DescriptionDescriptionDescriptionDescription\n"+
+        "DescriptionDescriptionDescription",
     image: images.onboarding2,
   },
   {
     id: 3,
-    title: "Your ride, your way. Let's go!",
+    title: "TitleTitleTitle",
     description:
-      "Enter your destination, sit back, and let us take care of the rest.",
+        "DescriptionDescriptionDescriptionDesciption\n" +
+        "DescriptionDescriptionDescriptionDescription\n"+
+        "DescriptionDescriptionDescription",
     image: images.onboarding3,
   },
 ];

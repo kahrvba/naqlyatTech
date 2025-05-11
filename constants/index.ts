@@ -48,6 +48,8 @@ import Vocher from "@/assets/images/Vocher.png";
 import JoinAsBg from "@/assets/images/JoinAsBg.jpeg";
 import placeholder from "@/assets/images/placeholder.png";
 import sidebar from "@/assets/images/sidebar.png";
+import blueBackArrow from "@/assets/icons/blueBackArrow.png";
+import bluesort from "@/assets/icons/bluesort.png";
 export const images = {
   onboarding1,
   smallTruck,
@@ -101,6 +103,8 @@ export const icons = {
   arrow,
   imageInSearch,
   smallCar,
+  blueBackArrow,
+  bluesort,
 };
 
 export const onboarding = [

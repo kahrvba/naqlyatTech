@@ -7,6 +7,8 @@ import {router} from "expo-router";
 
 const JoinAS = () => {
     return (
+
+
         <View className="flex-1 relative">
             <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
             <Image source={images.JoinAsBg} className="absolute w-full h-full" resizeMode="cover"/>
@@ -54,6 +56,7 @@ const JoinAS = () => {
 
             </SafeAreaView>
         </View>
+
     );
 };
 

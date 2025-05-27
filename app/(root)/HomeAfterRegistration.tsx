@@ -17,13 +17,12 @@ import {icons, images} from "@/constants";
 import InputField from "@/components/InputField";
 import Swiper from "react-native-swiper";
 import {router} from "expo-router";
-
+import OrderScreen from "./OrderScreen";
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 const HomeAfterRegistration = () => {
     const [isSidebarVisible, setIsSidebarVisible] = useState(false);
     const slideAnim = useRef(new Animated.Value(SCREEN_WIDTH)).current;
-
     const toggleSidebar = () => {
         if (!isSidebarVisible) {
             setIsSidebarVisible(true);
@@ -126,7 +125,9 @@ const HomeAfterRegistration = () => {
                         </Swiper>
                     </View>
                     <Text className="font-JakartaBold text-3xl p-4">Getting Start</Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => {
+                        router.replace("/OrderScreen");
+                    }}>
                         <View className="px-4 mt-4">
                             <View className="bg-[#337CF0] rounded-2xl flex-row items-center justify-between p-4">
                                 {/* Left Text Section */}

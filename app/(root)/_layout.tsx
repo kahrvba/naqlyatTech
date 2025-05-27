@@ -6,7 +6,8 @@ const Layout = () => {
       <Stack.Screen name="join-as" options={{ headerShown: false }} />
       <Stack.Screen name="register-as" options={{ headerShown: false }} />
       <Stack.Screen name="HomeAfterRegistration" options={{ headerShown: false }} />
-        <Stack.Screen name="long-rent" options={{ headerShown: false }} />
+      <Stack.Screen name="long-rent" options={{ headerShown: false }} />
+      <Stack.Screen name="OrderScreen" options={{ headerShown: false }} />
     </Stack>
   ) 
 };

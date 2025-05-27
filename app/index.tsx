@@ -2,7 +2,7 @@
 import { Redirect } from "expo-router";
 
 const Page = () => {
-    return<Redirect href="/(auth)/welcome" />
+    return<Redirect href="/(root)/OrderScreen" />
 };
 
 export default Page;
